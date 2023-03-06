@@ -16,3 +16,14 @@ When we have to arrange the boxes in horizontal manner then we will use the disp
 There are two axes that comes into picture, when we justifying horizontally and aligning vertically. There are "Main Axis"(horizontally) & "Cross Axis"(Vertically). Still the view will be considered as 1D only.
 
 
+When aligning the items horizontally we will use justify property with repect to display:flex;
+
+justify-content: flex-start;
+-----------------------------
+Using this property, will align all the boxes horizontally at the start of the page.
+![image](https://user-images.githubusercontent.com/48117959/223186725-d70263b7-e18a-4771-a2e9-151f37c9924d.png)
+
+
+justify-content: flex-end;
+--------------------------
+Using this property, will align all the boxes horizontally at the end of the page.
