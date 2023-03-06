@@ -29,3 +29,9 @@ justify-content: flex-end;
 Using this property, will align all the boxes horizontally at the end of the page.
 ![image](https://user-images.githubusercontent.com/48117959/223187235-8c3fcae8-d9b6-43fa-a48b-3260d9923b47.png)
 
+justify-content: center;
+-------------------------
+Using this property, will align all the boxes horizontally at the center of the page.
+![image](https://user-images.githubusercontent.com/48117959/223187710-5fe97b0f-b2fa-4c89-9755-a49714f50ff8.png)
+
+
