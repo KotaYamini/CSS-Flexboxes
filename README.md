@@ -27,3 +27,5 @@ Using this property, will align all the boxes horizontally at the start of the p
 justify-content: flex-end;
 --------------------------
 Using this property, will align all the boxes horizontally at the end of the page.
+![image](https://user-images.githubusercontent.com/48117959/223187235-8c3fcae8-d9b6-43fa-a48b-3260d9923b47.png)
+
