@@ -100,6 +100,12 @@ The flex items are laid out in a single line which may cause the flex container 
 The cross-start is either equivalent to start or before depending on the flex-direction value. This is the default value.
 ![image](https://user-images.githubusercontent.com/48117959/235300631-e7bc88c1-6317-4e79-953e-9223b2e07971.png)
 
+flex-reverse:
+-------------
+Behaves the same as wrap but cross-start and cross-end are permuted.
+![image](https://user-images.githubusercontent.com/48117959/235300947-f2717c52-aed3-4ca8-925a-091f8e2b023a.png)
+
+
 
 
 
