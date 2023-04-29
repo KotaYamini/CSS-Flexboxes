@@ -1,5 +1,18 @@
 .flex-container{
-    border: 1px solid #0000;
+    border: 1px solid #000000;
+    display: flex;
+    align-items: center;
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /* align-items: stretch; */
+    /* align-items: flex-start; */
+    /* align-items: flex-start; */
+    /* align-content: center; */
+    /* flex-wrap: wrap-reverse; */
 }
 
 .box{
@@ -13,12 +26,22 @@
 
 .box-1{
     min-height: 100px;
+    flex-shrink: 0;
+    align-self: start;
+    /* order:2; */
 }
 
 .box-2{
     min-height: 200px;
+    /* order:3; */
+    flex-grow: 2;
+    flex-basis: 1;
+    /* flex: <flex-grow> <flex-shrink> <flex-basis> */
 }
 
 .box-3{
     min-height: 300px;
+    /* order: 1; */
+    flex-grow: 3;
+    flex-basis: 1;
 }
