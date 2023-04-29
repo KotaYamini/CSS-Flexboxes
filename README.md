@@ -79,10 +79,10 @@ align-content:
 --------------
 align-content property sets the distribution of space between and around content items along a flexbox's cross-axis or a grid's block axis.
 
-align-content: center; /* Pack items around the center */
 align-content: start; /* Pack items from the start */
 ![image](https://user-images.githubusercontent.com/48117959/235300476-98f21966-f656-48bb-b889-e491536b328e.png)
 
+align-content: center; /* Pack items around the center */
 align-content: end; /* Pack items from the end */
 align-content: flex-start; /* Pack flex items from the start */
 align-content: flex-end; /* Pack flex items from the end */
@@ -90,12 +90,14 @@ align-content: flex-end; /* Pack flex items from the end */
 flex-wrap:
 ---------
 As the web page shrinks, the elements start missing their original width. So inorder to make it sustain , we can use flex-wrap property.
-The flex items break into multiple lines. The cross-start is either equivalent to start or before depending flex-direction value and the cross-end is the opposite of the specified cross-start.
+The flex items break into multiple lines. 
+The cross-start is either equivalent to start or before depending flex-direction value and the cross-end is the opposite of the specified cross-start.
 ![image](https://user-images.githubusercontent.com/48117959/235300563-749658fc-b2e8-4faa-9831-947c1b3a43fa.png)
 
 flex-nowrap:
 ------------
-The flex items are laid out in a single line which may cause the flex container to overflow. The cross-start is either equivalent to start or before depending on the flex-direction value. This is the default value.
+The flex items are laid out in a single line which may cause the flex container to overflow. 
+The cross-start is either equivalent to start or before depending on the flex-direction value. This is the default value.
 ![image](https://user-images.githubusercontent.com/48117959/235300631-e7bc88c1-6317-4e79-953e-9223b2e07971.png)
 
 
