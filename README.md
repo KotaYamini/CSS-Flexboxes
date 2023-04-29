@@ -36,8 +36,13 @@ Using this property, will align all the boxes horizontally at the center of the 
 
 justify-content: space-around;
 -------------------------------
-Using this proprty, will align all the boxes with a spcaing around the elements.
+Using this property, will align all the boxes will leave the half the space to the sides as in between the space between the  elements i.e., containers.
 ![image](https://user-images.githubusercontent.com/48117959/235298961-b9c76da0-57b0-4e8a-a1fb-66b8b6533e7a.png)
+
+justify-content: space-between:
+-------------------------------
+Using this property, will align all the boxes will leave the spaces towards the sides,it's just padding of the container.
+![image](https://user-images.githubusercontent.com/48117959/235299115-5c240d56-4680-4487-aaf0-82844448cddb.png)
 
 
 
