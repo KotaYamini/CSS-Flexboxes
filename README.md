@@ -106,6 +106,27 @@ Behaves the same as wrap but cross-start and cross-end are permuted.
 ![image](https://user-images.githubusercontent.com/48117959/235300947-f2717c52-aed3-4ca8-925a-091f8e2b023a.png)
 
 
+flex-shrink:
+------------
+To make certain element not to shrink even the container is shrinking with respect to responsiveness of the page.
+The flex-shrink CSS property sets the flex shrink factor of a flex item. 
+If the size of all flex items is larger than the flex container, items shrink to fit according to flex-shrink.
+![image](https://user-images.githubusercontent.com/48117959/235301053-55607524-566f-406c-833c-01cba16949cc.png)
+
+
+flex-grow:
+----------
+
+![image](https://user-images.githubusercontent.com/48117959/235301266-92d0932a-35af-4439-a0ce-2e28e8d2f7df.png)
+
+
+short hand for flex-property:
+-------------------------------
+  /* flex: <flex-grow> <flex-shrink> <flex-basis> */
+
+
+
+
 
 
 
