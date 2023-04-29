@@ -87,6 +87,12 @@ align-content: end; /* Pack items from the end */
 align-content: flex-start; /* Pack flex items from the start */
 align-content: flex-end; /* Pack flex items from the end */
 
+
+align-self:
+-----------
+The align-self CSS property overrides a grid or flex item's align-items value. In Grid, it aligns the item inside the grid area. In Flexbox, it aligns the item on the cross axis.
+![image](https://user-images.githubusercontent.com/48117959/235302475-2e37aa54-5b4e-4441-8ad5-11d4564cc04d.png)
+
 flex-wrap:
 ---------
 As the web page shrinks, the elements start missing their original width. So inorder to make it sustain , we can use flex-wrap property.
@@ -116,8 +122,15 @@ If the size of all flex items is larger than the flex container, items shrink to
 
 flex-grow:
 ----------
-
+The flex-grow CSS property sets the flex grow factor, which specifies how much of the flex container's remaining space should be assigned to the flex item's main size.
 ![image](https://user-images.githubusercontent.com/48117959/235301266-92d0932a-35af-4439-a0ce-2e28e8d2f7df.png)
+
+
+flex-basis: 
+----------
+The flex-basis CSS property sets the initial main size of a flex item. It sets the size of the content box unless otherwise set with box-sizing.
+Ex: Here we set flex-basis: 2 to second element in the container.
+![image](https://user-images.githubusercontent.com/48117959/235302331-7e3b967d-43bf-41e1-8d66-30ccd402dfe8.png)
 
 
 short hand for flex-property:
