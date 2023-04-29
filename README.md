@@ -34,4 +34,10 @@ justify-content: center;
 Using this property, will align all the boxes horizontally at the center of the page.
 ![image](https://user-images.githubusercontent.com/48117959/223187710-5fe97b0f-b2fa-4c89-9755-a49714f50ff8.png)
 
+justify-content: space-around;
+-------------------------------
+Using this proprty, will align all the boxes with a spcaing around the elements.
+![image](https://user-images.githubusercontent.com/48117959/235298961-b9c76da0-57b0-4e8a-a1fb-66b8b6533e7a.png)
+
+
 
